@@ -1597,7 +1597,7 @@ font-style: normal;
     .price_first::after,
 .price_second::after,
 .price_percent::after {
-    right: -12px;
+    right: -10px;
 }
 }
 
