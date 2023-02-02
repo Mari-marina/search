@@ -1593,6 +1593,13 @@ font-style: normal;
     top:0;
     right: -16px;
 }
+@media (max-width: 460px) {
+    .price_first::after,
+.price_second::after,
+.price_percent::after {
+    right: -12px;
+}
+}
 
 @media (max-width: 840px) {
     .price_first,
