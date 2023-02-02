@@ -1628,6 +1628,11 @@ line-height: 26px;
 font-size: 12px;
 line-height: 15px;
     }
+    .price_first,
+    .price_second,
+    .price_percent {
+        font-size: 12px;
+    }
 
 }
 @media (max-width: 800px) {
@@ -1705,9 +1710,11 @@ line-height: 24px;
 }
 @media (max-width: 660px) {
     .heart_box {
-        top: 10px;
+        top: 2px;
+        right: 8px;
     }
 }
+
 @media (max-width: 668px) {
     .counter {
         display: none;
@@ -1752,11 +1759,11 @@ line-height: 24px;
     left: 0;
     transition: transform 200ms ease-out;
   }
-  @media (max-width: 580px) {
+  /* @media (max-width: 580px) {
     .heart__icon {
         background: #D9222A;
     }
-}
+} */
   .heart__icon::before, .heart__icon::after {
     content: "";
     display: block;
@@ -1817,7 +1824,7 @@ line-height: 24px;
     }
   }
 
-  @media (max-width: 580px) {
+  /* @media (max-width: 580px) {
     @-webkit-keyframes heartAnimation {
         0% {
           transform: scale(1.1) rotate(45deg);
@@ -1859,4 +1866,4 @@ line-height: 24px;
           background: black;
         }
       }
-}
+} */
